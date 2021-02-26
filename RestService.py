@@ -54,7 +54,8 @@ weather = {
 
 @app.route("/", methods=['GET'])
 def index():
-    return "Welcome to Flask"
+    # return "Welcome to Flask"
+    return weather
 
 
 @app.route("/weatherReport/", methods=['GET'])
