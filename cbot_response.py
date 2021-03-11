@@ -1,9 +1,12 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics.nltk import tfidf_similarity
+from sklearn.metrics.nltk import tfidf_similarity
+
 
 from text_lemmatizer import LemNormalize
 
+from text_lemmatizer import LemNormalize
 
 def response(user_response, sentTokens):
     bot_response = ''
