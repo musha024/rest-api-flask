@@ -1,11 +1,6 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-<<<<<<< HEAD
 from text_lemmatizer import LemNormalize
-=======
-from sklearn.metrics.nltk import tfidf_similarity
-
->>>>>>> bff685a127080f01d03247085d7b0199fe21abbb
 
 from text_lemmatizer import LemNormalize
 
